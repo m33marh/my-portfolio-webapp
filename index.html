@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="#">home</a>
+    <a href="about.html">about me</a>
+    <a href="contact.html">contact me</a>
+    <a href="project.html">my project</a>
+    <a href="skills.html">my skills</a>
+    <nav>
+      <h1>MyPortfolio</h1>
+      <a href="#about">About</a>
+    </nav>
+    <div class="container">
+      <img src="IMG_9381.PNG" alt="Profile Image" class="profile-img zoom-on-hover" />
+
+      <h1>Hello, I'm <span>Maryam Ado Sabiu</span></h1>
+      <p>Computer Science Student | Web Developer | Tech Enthusiast</p>
+    
+    <!-- Dark Mode Button -->
+    <button id="toggle-mode">Toggle Dark Mode</button>
+  </div>
+</header>
+  <section class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Maryam Ado Sabiu a second-year Computer Science student with a passion for web development, problem
+        solving, and learning new technologies. I love building creative and efficient solutions.I attended Lufaloy Grammar School and now i'm currently doing my first degree at Northwest University Kano,Nigeria.I'm Enthusiastic about life,always seeking new experiences,and I Love solving problems.Also, i'm an entrepreneur.I enjoy cooking and travelling is one of my hobbies.I'm currently designing a website at the same time trying to expand my business.
+      </p>
+    </div>
+  </section>
+  <section class="audio">
+  <div class="container">
+    <h2>Listen to My Introduction</h2>
+    <audio controls>
+      <source src="Recording (5).m4a" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</section>
+<section class="video">
+  <div class="container">
+    <h2>This is a video about my business</h2>
+    <video width="30%" height="auto" controls>
+      <source src="EOFP1585.MP4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+  <section class="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <ul class="skills-list">
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Git & GitHub</li>
+        <li>SQL</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+  </section>
+   <section class="My projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-cards">
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>A personal website built with HTML and CSS to showcase my skills and projects.</p>
+        </div>
+        <div class="card">
+          <h3>To-Do App</h3>
+          <p>A simple JavaScript To-Do list application with local storage integration.</p>
+        </div>
+        <div class="card">
+          <h3>Python Quiz App</h3>
+          <p>A CLI quiz application that tests general knowledge using Python and file handling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="resume">
+    <div class="container">
+      <h2>My Resume</h2>
+      <p>You can view or download my resume below.</p>
+      <a href="resume.pdf" class="btn-blue" download>Download Resume</a>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>
+        I'm currently open to internships, freelance projects, or just networking with fellow developers and tech
+        enthusiasts. Whether you have a question, an opportunity, or just want to say hi feel free to drop a message or visit me at my location
+        below. I'll get back to you as soon as I can!
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.940939904926!2d8.482568474824077!3d11.978588588252922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11ae80786cb35f4b%3A0x834397f0afccec3a!2sKofar%20Famfo!5e0!3m2!1sen!2sng!4v1751483245441!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </p>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-blue">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>&copy;2025 Maryam Ado Sabiu. All rights reserved.</p>
+  </footer>
+</body>
+<!-- Image Preview Modal -->
+<div id="imagePreviewModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+</html>
